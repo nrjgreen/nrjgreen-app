@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "750407952479",
+    "project_id": "nrjhub-dev",
+    "storage_bucket": "nrjhub-dev.appspot.com"
+  },
+  "client": [
+   {
+      "client_info": {
+        "mobilesdk_app_id": "1:750407952479:android:1f586a46570b7f23b313ea",
+        "android_client_info": {
+          "package_name": "nl.nrjhub.companion.android"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBgn9VZg513_jS5ARzSDJIHtiIDpj_iJrY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -34,7 +34,7 @@ static NSString *onst kRNConcurrentRoot = @"concurrentRoot";
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
   [FIRApp configure];
-  RCTAppSetupPrepareApp(application);
+  RCTAppSetupPrepareApp(application, false);
 
   RCTBridge *bridge = [[RCTBridge alloc] initWithDelegate:self launchOptions:launchOptions];
 
@@ -54,7 +54,7 @@ static NSString *onst kRNConcurrentRoot = @"concurrentRoot";
   NSMutableDictionary *initialProps = [initProps mutableCopy];
   // Merge initProps with appProperties into initialProps
   [initialProps addEntriesFromDictionary:appProperties];
-  UIView *rootView = RCTAppSetupDefaultRootView(bridge, @"eMobility", initialProps);
+  UIView *rootView = RCTAppSetupDefaultRootView(bridge, @"eMobility", initialProps, false);
 
   if (@available(iOS 13.0, *)) {
     rootView.backgroundColor = [UIColor systemBackgroundColor];

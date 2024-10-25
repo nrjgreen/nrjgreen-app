@@ -5,7 +5,7 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleDisplayName</key>
-	<string>Open e-Mobility</string>
+	<string>NRJGreen</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
@@ -51,7 +51,7 @@
 		</dict>
 	</dict>
 	<key>NSCameraUsageDescription</key>
-	<string>${PRODUCT_NAME} needs access to the camera to scan the charging station's QR Code to register the organization or start a transaction</string>
+	<string>${PRODUCT_NAME} needs access to the camera to scan the charging station&apos;s QR Code to register the organization or start a transaction</string>
 	<key>NSLocationWhenInUseUsageDescription</key>
 	<string>Discover Charging Stations</string>
 	<key>UIAppFonts</key>
